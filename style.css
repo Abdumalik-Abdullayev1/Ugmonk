@@ -1,0 +1,321 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: Roboto;
+}
+@font-face {
+    font-family: Roboto;
+    src: url("./Fonts/Roboto/Roboto-Medium.ttf");
+}
+.navbar{
+    padding: 30px 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo h1{
+    display: flex;
+    gap: 20px;
+    font-size: 37px;
+}
+.logo{
+    width: 50%;
+    display: flex;
+    gap: 30px;
+    justify-content: space-between;
+}
+.logo ul{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+ul a{
+    color: rgba(42, 42, 42, 1);
+}
+.nav-links ul{
+    display: flex;
+    gap: 30px;  
+}
+.section-img img{
+    width: 100%;
+    height: 80vh;
+    object-fit: cover;
+}
+
+.container{
+    width: 100%;
+    padding: 50px 160px;
+}
+.instructions ul{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 50px;
+    gap: 30px;
+}
+.instructions a{
+    color: rgba(168, 168, 168, 1);
+}
+.instructions a:hover{
+    color: rgba(42, 42, 42, 1);
+    text-decoration: underline;
+}
+.wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+.product-description{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding-bottom: 20px;
+}
+.product-description h4{
+    font-size: 15px;
+}
+.product-description h6{
+    font-size: 14px;
+    color: rgba(168, 168, 168, 1);
+}
+.product-price p{
+    font-size: 13px;
+    color: rgba(128, 128, 128, 1);
+}
+.product-price span{
+    color: rgba(255, 52, 81, 1);
+}
+.product-desc{
+    display: flex;
+    flex-direction: column;
+}
+.product-desc h6{
+    font-size: 13px;
+    padding-bottom: 10px;
+    color: rgba(128, 128, 128, 1);
+}
+.shop-button{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
+.shop-button button{
+    width: 300px;
+    height: 56px;
+    border: none;
+    cursor: pointer;
+    background-color: rgba(26, 26, 26, 1);
+    color: rgba(247, 247, 247, 1);
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+
+.analog-product{
+    width: 100%;
+    height: 80vh;
+    background-image: url("./pictures/productivity.png");
+    /* background-repeat: no-repeat; */
+}
+.analog-product-item{
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    gap: 30px;
+    position: relative;
+}
+.analog-product-item h1{
+    width: 360px;
+    font-size: 35px;
+    color: #fff;
+    font-weight: 400;
+}
+.analog-product-item button{
+    width: 182px;
+    height: 40px;
+    background-color: rgba(126, 110, 69, 1);
+    border: none;
+    color: #fff;
+    font-size: 15px;
+}
+.analog-product-item a{
+    color: #fff;
+    text-decoration: underline;
+    font-size: 15px;
+}
+.shipped-cards{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: rgba(126, 110, 69, 1);
+    position: absolute;
+    right: 150px;
+}
+.shipped-cards p{
+    height: 100%;
+    display: flex;
+    color: #fff;
+    text-align: center;
+    align-items: center;
+}
+
+.journals{
+    width: 100%;
+    height: 80vh;
+    background-color:rgba(49, 47, 46, 1);
+    display: flex;
+    align-items: center;
+}
+.journal-border{
+    width: 100%;
+    height: 436px;
+    background-color: #fff;
+}
+.journal-desc{
+    display: flex;
+}
+.journal-desc .items{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+
+}
+.journal-desc h1{
+    width: 182px;
+    font-size: 38px;
+}
+.journal-desc p{
+    width: 182px;
+    font-size: 15px;
+}
+.journal-desc a{
+    color: black;
+    text-decoration: underline;
+    margin-right: 48px;
+}
+.journal-img{
+    width: 60%;
+    height: 100%;
+}
+.shopping{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 50px;
+}
+.shop-img{
+    display: flex;
+    padding-bottom: 50px;
+    gap: 116px;
+}
+.shopping h1{
+    width: 630px;
+    font-size: 30px;
+}
+.shop-item{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.design-studio{
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url("./pictures/Rectangle.png");
+    /* background-repeat: no-repeat; */
+}
+.design-item h1{
+    width: 782px;
+    font-size: 35px;
+    color: #fff;
+}
+.design-item a{
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    text-decoration: underline;
+}
+.stay-loop{
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(206, 211, 202, 1);
+}
+.loop-item{
+    width: 420px;
+    height: 273px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+.loop-item h1{
+    width: 233px;
+    font-size: 30px;
+}
+.loop-item p{
+    font-size: 18px;
+    text-align: center;
+}
+input{
+    width: 338px;
+    height: 48px; 
+    padding: 20px;  
+}
+.inputs button{
+    width: 66px;
+    height: 48px;
+    
+}
+.footer-links{
+    display: flex;
+    gap: 150px;
+}
+.footer-links ul{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.shop-description{
+    display: flex;
+    gap: 20px;
+}
+.shop-description .aaa{
+    text-align: right;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.about-shop p{
+    width: 233px;
+    text-align: right;
+    font-size: 15px;
+}
+.shop-logo img{
+    width: 55px;
+    height: 88px;
+}
+.page-footer{
+    display: flex;
+    justify-content: space-between;
+}
+.icons{
+    display: flex;
+    gap: 20px;
+    font-size: 30px;
+    padding: 20px 0px 0px 180px;
+}
